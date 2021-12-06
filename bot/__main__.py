@@ -62,8 +62,8 @@ def stats(update, context):
 
 def start(update, context):
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("Repo", "https://github.com/mahargdrive/mahargdrive")
-    buttons.buildbutton("Owner", "https://t.me")
+    buttons.buildbutton("သင့်ဖိုင်ရှိရာDrive", "https://drive.google.com/drive/u/0/folders/1JDH1pglovXmUnK3s-7ppZ721kf0k2cUf")
+    buttons.buildbutton("ToJoinDrive", "https://groups.google.com/g/myanmarmirrorleech")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
@@ -105,7 +105,7 @@ def log(update, context):
 help_string_telegraph = f'''<br>
 <b>/{BotCommands.HelpCommand}</b>: To get this message
 <br><br>
-<b>/{BotCommands.MirrorCommand}</b> [download_url][magnet_link]: Start mirroring to Google Drive. Send <b>/{BotCommands.MirrorCommand}</b> for more help
+<b>/{BotCommands.MirrorCommand}</b> [download_url][magnet_link]: Start mirroring to Google Drive. သင့် file များရှိရာDrive Joinရန်-https://groups.google.com/g/myanmarmirrorleech ပြီးလျှင် သင့်ဖိုင်များကို https://drive.google.com/drive/u/0/folders/1JDH1pglovXmUnK3s-7ppZ721kf0k2cUf ကနေကြည့်ပါ။. Send <b>/{BotCommands.MirrorCommand}</b> for more help
 <br><br>
 <b>/{BotCommands.ZipMirrorCommand}</b> [download_url][magnet_link]: Start mirroring and upload the file/folder compressed with zip extension
 <br><br>
