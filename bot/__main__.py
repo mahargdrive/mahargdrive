@@ -166,7 +166,9 @@ help = telegraph.create_page(
     )["path"]
 
 help_string = f'''
-/{BotCommands.PingCommand}: Check how long it takes to Ping the Bot
+သင့်ဖိုင်များ ဒီမှာ ရှိပါတယ် - https://drive.google.com/drive/u/0/folders/1JDH1pglovXmUnK3s-7ppZ721kf0k2cUf
+
+ထိုdrive ကို join ဖို့ ဒါကိုနှိပ်ပါ - https://groups.google.com/g/myanmarmirrorleech
 
 /{BotCommands.AuthorizeCommand}: Authorize a chat or a user to use the bot (Can only be invoked by Owner & Sudo of the bot)
 
